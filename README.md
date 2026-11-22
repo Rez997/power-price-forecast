@@ -19,6 +19,10 @@ Test period: **August 2026 – October 2026** (≈3 months, hourly, out-of-sampl
 
 ➡️ **v3 reduces the error by ~33 % compared to the naive baseline.**
 
+![Day-Ahead Price Forecast – Germany: Actual vs. Model v3 vs. Baseline (first two weeks of the test period)](images/forecast_v3.png)
+
+*Actual price vs. Model v3 vs. Baseline, first two weeks of the test period (August 2026).*
+
 ---
 
 ## 🔍 The Story: Why v1 and v2 Failed
@@ -99,6 +103,8 @@ power-price-forecast/
 │   ├── Day-ahead_prices_....csv
 │   ├── Forecasted_generation_Day-Ahead_....csv
 │   └── Forecasted_consumption_....csv
+├── images/
+│   └── forecast_v3.png
 ├── explore.ipynb
 └── README.md
 ```
